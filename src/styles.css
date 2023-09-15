@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Manrope:wght@800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope";
+  transition: 0.5s ease-in-out;
+}
+
+body {
+  background-color: hsl(218, 23%, 16%);
+}
+
+#root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card {
+  background-color: hsl(217, 19%, 24%);
+  width: 460px;
+  border-radius: 20px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.adviceNumber {
+  font-size: 13px;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 5px;
+  margin: 20px;
+}
+
+.advice {
+  font-size: 28px;
+  color: hsl(193, 38%, 86%);
+  margin-bottom: 35px;
+  font-weight: 800;
+}
+
+.divider {
+  width: 100%;
+  height: 16px;
+  background-image: url("./images/pattern-divider-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20px;
+}
+
+.adviceChanger {
+  width: 65px;
+  height: 65px;
+  background-color: hsl(150, 100%, 66%);
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  margin-bottom: -50px;
+}
+
+.adviceChanger:hover {
+  box-shadow: 0 0 20px hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 535px) {
+  .card {
+    width: 77vw;
+  }
+}/*# sourceMappingURL=styles.css.map */
