@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 import buttonImg from "./images/icon-dice.svg";
-import divider from "./images/pattern-divider-desktop.svg";
-import divider1 from "./images/pattern-divider-mobile.svg";
 import "./styles.scss";
 
 function App() {
